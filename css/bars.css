@@ -1,0 +1,11 @@
+.brown-middle-bar {
+  height: 30px;
+  width: 100%;
+  background-color: var(--orangeBrown);
+}
+
+.gradient {
+  height: 30px;
+  width: 100%;
+  background-image: linear-gradient(to right, var(--brown), var(--orange));
+}

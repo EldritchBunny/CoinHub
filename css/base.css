@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: inria serif;
+}
+
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #faeac3;
+
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  size: 24px;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+@media screen {
+}

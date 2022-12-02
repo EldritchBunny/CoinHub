@@ -1,0 +1,18 @@
+.reason {
+  background-color: #fff5db;
+
+  border-radius: 24px;
+
+  height: auto;
+  width: 100%;
+  max-width: 500px;
+}
+.reason h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.reason p {
+  display: flex;
+  justify-content: center;
+}

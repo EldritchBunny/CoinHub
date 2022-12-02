@@ -1,0 +1,25 @@
+.contacts {
+  background-color: #fff5db;
+  height: 550px;
+  width: 100%;
+  max-width: 600px;
+
+  border-radius: 24px;
+}
+
+.contacts p {
+  text-align: right;
+  margin: 35px;
+}
+.contacts h2 {
+  text-align: right;
+  margin: 40px;
+
+  text-transform: uppercase;
+}
+.social-media {
+  height: 50px;
+  width: 50px;
+
+  margin: 20px;
+}

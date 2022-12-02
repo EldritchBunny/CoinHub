@@ -1,0 +1,16 @@
+nav ul {
+  padding: 1rem;
+  gap: 1rem;
+  list-style-type: none;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  background-color: #e4b773;
+
+  max-height: 50px;
+  width: 100%;
+}
