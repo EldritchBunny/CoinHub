@@ -27,3 +27,17 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.collection {
+  padding: 2rem clamp(1rem, 5vw, 10rem);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-left {
+  align-self: flex-start;
+}
+.flex-right {
+  align-self: flex-end;
+}
