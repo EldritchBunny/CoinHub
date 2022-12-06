@@ -7,6 +7,7 @@
     <title>CoinHub</title>
 
     <link rel="stylesheet" href="style.css" />
+    <script src="js/contact.js" defer></script>
   </head>
   <body>
     <!-- logo and name -->
@@ -32,12 +33,12 @@
         </li>
       </ul>
     </nav>
-    <!-- <div class="gradient"></div> -->
 
     <!-- content on page -->
 
     <main class="contacts">
       <h2>The collector</h2>
+      <!-- placeholder email and phone number -->
       <p>
         <b>email:</b>
         v1sveta@musicandsunshine.com
@@ -47,12 +48,14 @@
         +45 43 08 76 61
       </p>
       <p><b>social media:</b></p>
+      <!-- social media pages haven't been added yet, just leads to the front -->
       <ul>
         <li>
           <a href="https://www.instagram.com/">
             <img src="img/instagram.png" class="social-media" alt="instagram" />
           </a>
         </li>
+        <!-- twitter page tba -->
         <li>
           <a href="https://twitter.com/?lang=en">
             <img src="img/twitter.png" class="social-media" alt="twitter"
@@ -61,8 +64,9 @@
       </ul>
 
       <form class="newsletter">
-        <input type="email" name="email" placeholder="Email" class="email" />
-        <input type="button" value="submit" class="button" />
+        <input type="email" name="email" placeholder="Email" id="email" />
+        <input type="button" value="signup" id="button" />
+        <p id="error"></p>
         <p>stay up to date!</p>
       </form>
     </main>
