@@ -1,3 +1,4 @@
+/* this is where all the main tags go. */
 * {
   margin: 0;
   padding: 0;
@@ -43,5 +44,5 @@ ul {
 figure {
   margin: 0;
 }
-@media screen {
+@media screen and (max-width: 600px) {
 }

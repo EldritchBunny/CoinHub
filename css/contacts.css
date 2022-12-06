@@ -1,6 +1,6 @@
 .contacts {
   background-color: #fff5db;
-  height: 550px;
+  height: auto;
   width: 100%;
   max-width: 600px;
 
@@ -22,4 +22,26 @@
   width: 50px;
 
   margin: 20px;
+}
+
+.newsletter {
+  margin-left: 1.5em;
+  display: block;
+  position: relative;
+
+  line-height: 1.4rem;
+}
+
+.newsletter .button {
+  background-color: #fff5db;
+  border: none;
+  box-shadow: 1px 1px black;
+
+  margin-left: 0.5rem;
+}
+
+.newsletter .button:hover {
+  background-color: burlywood;
+  box-shadow: 1px 1px black;
+  cursor: pointer;
 }
