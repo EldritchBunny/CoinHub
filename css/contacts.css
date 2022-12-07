@@ -25,11 +25,25 @@
 }
 
 .newsletter {
+  padding: 2rem;
+  position: relative;
+  bottom: 50px;
   margin-left: 1.5em;
-  display: block;
+  align-items: center;
+}
+
+#error {
+  position: absolute;
+  text-align: center;
+}
+
+.stay {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
   position: relative;
 
-  line-height: 1.4rem;
+  bottom: 50px;
 }
 
 .newsletter #button {
