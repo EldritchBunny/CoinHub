@@ -3,7 +3,7 @@
   width: 100%;
   background-color: var(--orangeBrown);
 }
-
+/* gradient have been removed as there seemed to be issues with it */
 .gradient {
   height: 30px;
   width: 100%;
